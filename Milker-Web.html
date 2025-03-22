@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milker IDE - Official Website</title>
+    <link rel="icon" href="milker_icon.ico">
+    <style>
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #121212;
+            color: #f4f4f4;
+        }
+
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #232323;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+
+        .cta {
+            background-color: #ffcc00;
+            color: #232323;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        .cta:hover {
+            background-color: #e6b800;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #1f1f1f;
+            position: sticky;
+            top: 0;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav ul li {
+            font-size: 1.1em;
+        }
+
+        nav ul li a {
+            color: #fff;
+            padding: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffcc00;
+            border-radius: 5px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x800'); /* Replace with a background image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 150px 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .download-btn {
+            background-color: #ffcc00;
+            color: #232323;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        .download-btn:hover {
+            background-color: #e6b800;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px 0;
+            background-color: #1e1e1e;
+        }
+
+        .features .feature {
+            text-align: center;
+            width: 30%;
+        }
+
+        .features img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 20px;
+        }
+
+        .features h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .features p {
+            font-size: 1em;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #232323;
+            color: #f4f4f4;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ffcc00;
+            margin: 0 15px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .features .feature {
+                width: 80%;
+                margin: 20px 0;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                font-size: 1.2em;
+                margin: 10px 0;
+            }
+
+            .cta, .download-btn {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Milker IDE</h1>
+        <div class="cta">Your Powerful Coding Environment</div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to Milker IDE</h2>
+        <p>The perfect IDE for Milk & InstallScript developers</p>
+        <div class="download-btn">Download Now</div>
+    </section>
+
+    <section id="about" class="features">
+        <div class="feature">
+            <img src="https://via.placeholder.com/60" alt="Feature 1">
+            <h3>Powerful Features</h3>
+            <p>Syntax highlighting, project explorer, built-in terminal, and more.</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/60" alt="Feature 2">
+            <h3>Effortless Coding</h3>
+            <p>Write code with ease, navigate through your project effortlessly.</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/60" alt="Feature 3">
+            <h3>Instant Compilation</h3>
+            <p>Run and compile your Milk and InstallScript programs without hassle.</p>
+        </div>
+    </section>
+
+    <section id="download" class="hero">
+        <h2>Get Milker IDE</h2>
+        <p>Start coding today! Download Milker IDE and unleash your creativity.</p>
+        <div class="download-btn">Download Milker IDE</div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2025 Milker IDE. All rights reserved.</p>
+        <p>
+        </p>
+    </footer>
+
+</body>
+</html>
